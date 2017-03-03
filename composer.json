@@ -1,0 +1,6 @@
+{
+    "require": {
+        "anax/request": "^1.0",
+        "anax/url": "^1.0"
+    }
+}
