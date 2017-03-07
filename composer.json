@@ -1,6 +1,19 @@
 {
+    "name": "anax/anax-lite",
+    "description": "A small PHP framework.",
+    "license": "MIT",
+    "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+    ],
     "require": {
         "anax/request": "^1.0",
-        "anax/url": "^1.0"
+        "anax/url": "^1.0",
+        "anax/router": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"Mos\\": "src/"}
     }
 }
