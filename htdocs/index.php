@@ -14,9 +14,10 @@ require ANAX_INSTALL_PATH . "/vendor/autoload.php";
 
 // Add all resources to $app
 $app = new \Mos\App\App();
-$app->request = new \Anax\Request\RequestBasic();
-$app->url     = new \Anax\Url\Url();
-$app->router  = new \Anax\Route\RouterInjectable();
+$app->request  = new \Anax\Request\RequestBasic();
+$app->response = new \Anax\Response\Response();
+$app->url      = new \Anax\Url\Url();
+$app->router   = new \Anax\Route\RouterInjectable();
 
 // Init the object of the request class.
 $app->request->init();
