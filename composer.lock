@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "anax/common",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/common.git",
-                "reference": "18f03ce8fe74d164ec2141cc4971c60b2595f3d1"
+                "reference": "d7cdc1c5b445a7718d0ae2379fd92f219f43fe99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/common/zipball/18f03ce8fe74d164ec2141cc4971c60b2595f3d1",
-                "reference": "18f03ce8fe74d164ec2141cc4971c60b2595f3d1",
+                "url": "https://api.github.com/repos/canax/common/zipball/d7cdc1c5b445a7718d0ae2379fd92f219f43fe99",
+                "reference": "d7cdc1c5b445a7718d0ae2379fd92f219f43fe99",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-09 13:26:14"
+            "time": "2017-03-10 12:43:46"
         },
         {
             "name": "anax/request",
@@ -208,16 +208,16 @@
         },
         {
             "name": "anax/url",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/url.git",
-                "reference": "2ce40765131fabe0596db222dd1d920a71a60ea4"
+                "reference": "9a2de055e38b23074badcf9bb1293c3fdc715a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/url/zipball/2ce40765131fabe0596db222dd1d920a71a60ea4",
-                "reference": "2ce40765131fabe0596db222dd1d920a71a60ea4",
+                "url": "https://api.github.com/repos/canax/url/zipball/9a2de055e38b23074badcf9bb1293c3fdc715a5e",
+                "reference": "9a2de055e38b23074badcf9bb1293c3fdc715a5e",
                 "shasum": ""
             },
             "require": {
@@ -254,20 +254,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10 08:22:29"
+            "time": "2017-03-10 12:53:10"
         },
         {
             "name": "anax/view",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/view.git",
-                "reference": "315ecd672b4f99540c3103f2b6d260dfdef38e87"
+                "reference": "12621550d633189e6639508330515f3394e2cc84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/view/zipball/315ecd672b4f99540c3103f2b6d260dfdef38e87",
-                "reference": "315ecd672b4f99540c3103f2b6d260dfdef38e87",
+                "url": "https://api.github.com/repos/canax/view/zipball/12621550d633189e6639508330515f3394e2cc84",
+                "reference": "12621550d633189e6639508330515f3394e2cc84",
                 "shasum": ""
             },
             "require": {
@@ -304,7 +304,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-09 13:40:43"
+            "time": "2017-03-10 12:11:51"
         }
     ],
     "packages-dev": [],
