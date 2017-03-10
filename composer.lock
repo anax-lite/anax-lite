@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f476588165066042df44b9fd49b056c",
+    "hash": "4d0629c357533abe58da8ff26e89ea71",
+    "content-hash": "9df98fac18ece435f2f116e7566aa811",
     "packages": [
         {
             "name": "anax/common",
-            "version": "v1.0.2",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/common.git",
-                "reference": "d6319abc63d40bab4eec993abae3ff6aa81020d6"
+                "reference": "18f03ce8fe74d164ec2141cc4971c60b2595f3d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/common/zipball/d6319abc63d40bab4eec993abae3ff6aa81020d6",
-                "reference": "d6319abc63d40bab4eec993abae3ff6aa81020d6",
+                "url": "https://api.github.com/repos/canax/common/zipball/18f03ce8fe74d164ec2141cc4971c60b2595f3d1",
+                "reference": "18f03ce8fe74d164ec2141cc4971c60b2595f3d1",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +31,10 @@
             "autoload": {
                 "psr-4": {
                     "Anax\\": "src/"
-                }
+                },
+                "files": [
+                    "src/functions.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -53,7 +57,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07T08:22:27+00:00"
+            "time": "2017-03-09 13:26:14"
         },
         {
             "name": "anax/request",
@@ -102,20 +106,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07T08:24:13+00:00"
+            "time": "2017-03-07 08:24:13"
         },
         {
             "name": "anax/response",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/response.git",
-                "reference": "ef6c9a0e6e252b173a6d20080727e92be2094740"
+                "reference": "77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/response/zipball/ef6c9a0e6e252b173a6d20080727e92be2094740",
-                "reference": "ef6c9a0e6e252b173a6d20080727e92be2094740",
+                "url": "https://api.github.com/repos/canax/response/zipball/77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0",
+                "reference": "77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +155,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07T15:13:37+00:00"
+            "time": "2017-03-09 13:41:05"
         },
         {
             "name": "anax/router",
@@ -200,20 +204,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07T10:52:47+00:00"
+            "time": "2017-03-07 10:52:47"
         },
         {
             "name": "anax/url",
-            "version": "v1.0.1",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/url.git",
-                "reference": "a99f11737d53ce0bd4f86b0710645c523a54bc9f"
+                "reference": "2ce40765131fabe0596db222dd1d920a71a60ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/url/zipball/a99f11737d53ce0bd4f86b0710645c523a54bc9f",
-                "reference": "a99f11737d53ce0bd4f86b0710645c523a54bc9f",
+                "url": "https://api.github.com/repos/canax/url/zipball/2ce40765131fabe0596db222dd1d920a71a60ea4",
+                "reference": "2ce40765131fabe0596db222dd1d920a71a60ea4",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +254,57 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07T08:20:39+00:00"
+            "time": "2017-03-10 08:22:29"
+        },
+        {
+            "name": "anax/view",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/view.git",
+                "reference": "315ecd672b4f99540c3103f2b6d260dfdef38e87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/view/zipball/315ecd672b4f99540c3103f2b6d260dfdef38e87",
+                "reference": "315ecd672b4f99540c3103f2b6d260dfdef38e87",
+                "shasum": ""
+            },
+            "require": {
+                "anax/common": "^1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax View module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-03-09 13:40:43"
         }
     ],
     "packages-dev": [],

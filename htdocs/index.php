@@ -18,6 +18,13 @@ $app->request  = new \Anax\Request\RequestBasic();
 $app->response = new \Anax\Response\Response();
 $app->url      = new \Anax\Url\Url();
 $app->router   = new \Anax\Route\RouterInjectable();
+$app->view     = new \Anax\View\ViewContainer();
+
+// Inject $app into the view container for use in view files.
+$app->view->setApp($app);
+
+// Update view configuration with values from config file.
+$app->view->configure("view.php");
 
 // Init the object of the request class.
 $app->request->init();
