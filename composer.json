@@ -13,7 +13,8 @@
         "anax/url": "^1.0",
         "anax/router": "^1.0",
         "anax/response": "^1.0",
-        "anax/view": "^1.0"
+        "anax/view": "^1.0",
+        "mos/cimage": "^0.7.18"
     },
     "autoload": {
         "psr-4": {"Mos\\": "src/"}

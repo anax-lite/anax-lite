@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4d0629c357533abe58da8ff26e89ea71",
-    "content-hash": "9df98fac18ece435f2f116e7566aa811",
+    "hash": "338cc124fb7491a83ebc1789049c403c",
+    "content-hash": "faca937d9cf1fe4de1a73e98494b5134",
     "packages": [
         {
             "name": "anax/common",
@@ -110,16 +110,16 @@
         },
         {
             "name": "anax/response",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/response.git",
-                "reference": "77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0"
+                "reference": "ad9d199520f0009d19cd6a4d27e3f619012fb651"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/response/zipball/77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0",
-                "reference": "77cab97b3f68b8a0c3187cf9d051bc1faa67dfa0",
+                "url": "https://api.github.com/repos/canax/response/zipball/ad9d199520f0009d19cd6a4d27e3f619012fb651",
+                "reference": "ad9d199520f0009d19cd6a4d27e3f619012fb651",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +155,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-09 13:41:05"
+            "time": "2017-03-10 14:04:57"
         },
         {
             "name": "anax/router",
@@ -305,6 +305,64 @@
                 "mvc"
             ],
             "time": "2017-03-10 12:11:51"
+        },
+        {
+            "name": "mos/cimage",
+            "version": "v0.7.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mosbth/cimage.git",
+                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
+                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-exif": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "defines.php",
+                    "functions.php"
+                ],
+                "classmap": [
+                    "CImage.php",
+                    "CHttpGet.php",
+                    "CRemoteImage.php",
+                    "CWhitelist.php",
+                    "CAsciiArt.php",
+                    "CCache.php",
+                    "CFastTrackCache.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "me@mikaelroos.se",
+                    "homepage": "http://mikaelroos.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Process, scale, resize, crop and filter images.",
+            "homepage": "http://dbwebb.se/opensource/cimage",
+            "keywords": [
+                "gd",
+                "image",
+                "imageprocessing"
+            ],
+            "time": "2016-08-09 11:27:46"
         }
     ],
     "packages-dev": [],
