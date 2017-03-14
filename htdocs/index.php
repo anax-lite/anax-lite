@@ -14,7 +14,7 @@ require ANAX_INSTALL_PATH . "/vendor/autoload.php";
 
 // Add all resources to $app
 $app = new \Mos\App\App();
-$app->request  = new \Anax\Request\RequestBasic();
+$app->request  = new \Anax\Request\Request();
 $app->response = new \Anax\Response\Response();
 $app->url      = new \Anax\Url\Url();
 $app->router   = new \Anax\Route\RouterInjectable();
@@ -44,4 +44,4 @@ $app->url->setDefaultsFromConfiguration();
 require ANAX_INSTALL_PATH . "/config/route.php";
 
 // Leave to router to match incoming request to routes
-$app->router->handle($app->request->getRoute());
+$app->router->handle($app->request->getRoute(), $app->request->getMethod());

@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "338cc124fb7491a83ebc1789049c403c",
     "content-hash": "faca937d9cf1fe4de1a73e98494b5134",
     "packages": [
         {
@@ -57,20 +56,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10 12:43:46"
+            "time": "2017-03-10T12:43:46+00:00"
         },
         {
             "name": "anax/request",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/request.git",
-                "reference": "4c961699d1a06532c7996eb967204b61d7bd8bc1"
+                "reference": "879b93031f26d37e6259af2c644eafc62c1af614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/request/zipball/4c961699d1a06532c7996eb967204b61d7bd8bc1",
-                "reference": "4c961699d1a06532c7996eb967204b61d7bd8bc1",
+                "url": "https://api.github.com/repos/canax/request/zipball/879b93031f26d37e6259af2c644eafc62c1af614",
+                "reference": "879b93031f26d37e6259af2c644eafc62c1af614",
                 "shasum": ""
             },
             "require": {
@@ -106,20 +105,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07 08:24:13"
+            "time": "2017-03-13T19:07:56+00:00"
         },
         {
             "name": "anax/response",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/response.git",
-                "reference": "ad9d199520f0009d19cd6a4d27e3f619012fb651"
+                "reference": "9af4ec6aa42ad31127e78075cec00af165671044"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/response/zipball/ad9d199520f0009d19cd6a4d27e3f619012fb651",
-                "reference": "ad9d199520f0009d19cd6a4d27e3f619012fb651",
+                "url": "https://api.github.com/repos/canax/response/zipball/9af4ec6aa42ad31127e78075cec00af165671044",
+                "reference": "9af4ec6aa42ad31127e78075cec00af165671044",
                 "shasum": ""
             },
             "require": {
@@ -155,20 +154,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10 14:04:57"
+            "time": "2017-03-13T15:32:20+00:00"
         },
         {
             "name": "anax/router",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/router.git",
-                "reference": "df6a125d5228879c612cac31e5e5d3b940b21941"
+                "reference": "5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/router/zipball/df6a125d5228879c612cac31e5e5d3b940b21941",
-                "reference": "df6a125d5228879c612cac31e5e5d3b940b21941",
+                "url": "https://api.github.com/repos/canax/router/zipball/5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92",
+                "reference": "5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +203,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-07 10:52:47"
+            "time": "2017-03-13T17:05:21+00:00"
         },
         {
             "name": "anax/url",
@@ -254,7 +253,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10 12:53:10"
+            "time": "2017-03-10T12:53:10+00:00"
         },
         {
             "name": "anax/view",
@@ -304,7 +303,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10 12:11:51"
+            "time": "2017-03-10T12:11:51+00:00"
         },
         {
             "name": "mos/cimage",
@@ -362,7 +361,7 @@
                 "image",
                 "imageprocessing"
             ],
-            "time": "2016-08-09 11:27:46"
+            "time": "2016-08-09T11:27:46+00:00"
         }
     ],
     "packages-dev": [],
