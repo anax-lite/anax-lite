@@ -2,7 +2,7 @@
 /**
  * Routes.
  */
-$app->router->add("", function () use($app) {
+$app->router->add("", function () use ($app) {
     $app->view->add("take1/header", ["title" => "Home"]);
     $app->view->add("take1/navbar");
     $app->view->add("take1/home");
@@ -11,7 +11,7 @@ $app->router->add("", function () use($app) {
                   ->send();
 });
 
-$app->router->add("about", function () use($app) {
+$app->router->add("about", function () use ($app) {
     $app->view->add("take1/header", ["title" => "About"]);
     $app->view->add("take1/navbar");
     $app->view->add("take1/about");
@@ -20,7 +20,7 @@ $app->router->add("about", function () use($app) {
                   ->send();
 });
 
-$app->router->add("status", function () use($app) {
+$app->router->add("status", function () use ($app) {
     $data = [
         "Server" => php_uname(),
         "PHP version" => phpversion(),
@@ -32,7 +32,7 @@ $app->router->add("status", function () use($app) {
     $app->response->sendJson($data);
 });
 
-$app->router->add("search/{string}", function ($string) use($app) {
+$app->router->add("search/{string}", function ($string) use ($app) {
     $data = [
         "Searchstring was" => $string
     ];
@@ -44,7 +44,7 @@ $app->router->add("search/{string}", function ($string) use($app) {
 /**
  * Check arguments that matches a specific type.
  */
-$callback = function ($value) use($app) {
+$callback = function ($value) use ($app) {
     $data = [
         "route"     => $app->request->getRoute(),
         "matched"   => $app->router->getLastRoute(),
