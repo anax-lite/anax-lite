@@ -183,11 +183,7 @@ phpunit: prepare
 .PHONY: phpcs
 phpcs: prepare
 	@$(call HELPTEXT,$@)
-ifneq ($(wildcard test),)
 	$(PHPCS) --standard=.phpcs.xml | tee build/phpcs
-else
-	$(PHPCS) --standard=.phpcs.xml src | tee build/phpcs
-endif
 
 
 

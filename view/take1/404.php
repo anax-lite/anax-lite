@@ -1,13 +1,13 @@
 <?php
 $currentRoute = $app->request->getRoute();
 $routes = "<ul>";
-foreach($app->router->getAll() as $route) {
+foreach ($app->router->getAll() as $route) {
     $routes .= "<li>'" . $route->getRule() . "'</li>";
 }
 $routes .= "</ul>";
 
 $intRoutes = "<ul>";
-foreach($app->router->getInternal() as $route) {
+foreach ($app->router->getInternal() as $route) {
     $intRoutes .= "<li>'" . $route->getRule() . "'</li>";
 }
 $intRoutes .= "</ul>";
