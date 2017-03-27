@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "anax/common",
-            "version": "v1.0.6",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/common.git",
-                "reference": "d7cdc1c5b445a7718d0ae2379fd92f219f43fe99"
+                "reference": "20b8af302f48c6984e17a830612db1f25d4eca9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/common/zipball/d7cdc1c5b445a7718d0ae2379fd92f219f43fe99",
-                "reference": "d7cdc1c5b445a7718d0ae2379fd92f219f43fe99",
+                "url": "https://api.github.com/repos/canax/common/zipball/20b8af302f48c6984e17a830612db1f25d4eca9b",
+                "reference": "20b8af302f48c6984e17a830612db1f25d4eca9b",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10T12:43:46+00:00"
+            "time": "2017-03-26T17:03:12+00:00"
         },
         {
             "name": "anax/request",
@@ -158,16 +158,16 @@
         },
         {
             "name": "anax/router",
-            "version": "v1.0.1",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/router.git",
-                "reference": "5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92"
+                "reference": "29755b0357407b503866779236fa69c0fe1a87f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/router/zipball/5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92",
-                "reference": "5a41f50097e5d5aa05ada2d1a33cacfb83cd9e92",
+                "url": "https://api.github.com/repos/canax/router/zipball/29755b0357407b503866779236fa69c0fe1a87f1",
+                "reference": "29755b0357407b503866779236fa69c0fe1a87f1",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-13T17:05:21+00:00"
+            "time": "2017-03-26T20:55:23+00:00"
         },
         {
             "name": "anax/url",
@@ -257,16 +257,16 @@
         },
         {
             "name": "anax/view",
-            "version": "v1.0.3",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/view.git",
-                "reference": "12621550d633189e6639508330515f3394e2cc84"
+                "reference": "f5aa605a4ec56812626ef10af9b8e7e9018b7c8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/view/zipball/12621550d633189e6639508330515f3394e2cc84",
-                "reference": "12621550d633189e6639508330515f3394e2cc84",
+                "url": "https://api.github.com/repos/canax/view/zipball/f5aa605a4ec56812626ef10af9b8e7e9018b7c8e",
+                "reference": "f5aa605a4ec56812626ef10af9b8e7e9018b7c8e",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10T12:11:51+00:00"
+            "time": "2017-03-17T16:07:40+00:00"
         },
         {
             "name": "mos/cimage",

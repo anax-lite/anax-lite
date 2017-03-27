@@ -1,7 +1,7 @@
 <?php
 
 // Get all available variables
-//var_dump(get_defined_vars());
+var_dump(get_defined_vars());
 
 /*
 $li = "";
