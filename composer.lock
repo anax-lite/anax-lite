@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "faca937d9cf1fe4de1a73e98494b5134",
+    "hash": "bdb7f5a1330d74e8d49c7f9256cf3007",
+    "content-hash": "0ad97f6ed7c04060224914371e2fb212",
     "packages": [
         {
             "name": "anax/common",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/common.git",
-                "reference": "20b8af302f48c6984e17a830612db1f25d4eca9b"
+                "reference": "e1bd53429ee7d45c0834bc1abe3d6704fd581f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/common/zipball/20b8af302f48c6984e17a830612db1f25d4eca9b",
-                "reference": "20b8af302f48c6984e17a830612db1f25d4eca9b",
+                "url": "https://api.github.com/repos/canax/common/zipball/e1bd53429ee7d45c0834bc1abe3d6704fd581f53",
+                "reference": "e1bd53429ee7d45c0834bc1abe3d6704fd581f53",
                 "shasum": ""
             },
             "require": {
@@ -56,20 +57,73 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-26T17:03:12+00:00"
+            "time": "2017-03-26 21:22:33"
         },
         {
-            "name": "anax/request",
+            "name": "anax/database",
             "version": "v1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/canax/request.git",
-                "reference": "879b93031f26d37e6259af2c644eafc62c1af614"
+                "url": "https://github.com/canax/database.git",
+                "reference": "ee37c601fbd4c1732b848907ec961d45667405d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/request/zipball/879b93031f26d37e6259af2c644eafc62c1af614",
-                "reference": "879b93031f26d37e6259af2c644eafc62c1af614",
+                "url": "https://api.github.com/repos/canax/database/zipball/ee37c601fbd4c1732b848907ec961d45667405d1",
+                "reference": "ee37c601fbd4c1732b848907ec961d45667405d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "anax/common": "^1.0",
+                "php": ">=5.6"
+            },
+            "suggest": {
+                "anax/common": "To enhance integration with Anax framework."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax Database module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-03-31 13:20:50"
+        },
+        {
+            "name": "anax/request",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/request.git",
+                "reference": "7c0e2bbb98c962a894a0edbd2e04d2a46e4b159b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/request/zipball/7c0e2bbb98c962a894a0edbd2e04d2a46e4b159b",
+                "reference": "7c0e2bbb98c962a894a0edbd2e04d2a46e4b159b",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +159,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-13T19:07:56+00:00"
+            "time": "2017-03-30 21:38:22"
         },
         {
             "name": "anax/response",
@@ -154,7 +208,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-13T15:32:20+00:00"
+            "time": "2017-03-13 15:32:20"
         },
         {
             "name": "anax/router",
@@ -203,20 +257,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-26T20:55:23+00:00"
+            "time": "2017-03-26 20:55:23"
         },
         {
             "name": "anax/url",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/url.git",
-                "reference": "9a2de055e38b23074badcf9bb1293c3fdc715a5e"
+                "reference": "5d3fa7b073ac63426c9b0446a5e86ecafbd1f67e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/url/zipball/9a2de055e38b23074badcf9bb1293c3fdc715a5e",
-                "reference": "9a2de055e38b23074badcf9bb1293c3fdc715a5e",
+                "url": "https://api.github.com/repos/canax/url/zipball/5d3fa7b073ac63426c9b0446a5e86ecafbd1f67e",
+                "reference": "5d3fa7b073ac63426c9b0446a5e86ecafbd1f67e",
                 "shasum": ""
             },
             "require": {
@@ -253,20 +307,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-10T12:53:10+00:00"
+            "time": "2017-03-30 22:16:53"
         },
         {
             "name": "anax/view",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/view.git",
-                "reference": "f5aa605a4ec56812626ef10af9b8e7e9018b7c8e"
+                "reference": "2e57aa6e22da41cfa695665e6d8c5b32b4284cde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/view/zipball/f5aa605a4ec56812626ef10af9b8e7e9018b7c8e",
-                "reference": "f5aa605a4ec56812626ef10af9b8e7e9018b7c8e",
+                "url": "https://api.github.com/repos/canax/view/zipball/2e57aa6e22da41cfa695665e6d8c5b32b4284cde",
+                "reference": "2e57aa6e22da41cfa695665e6d8c5b32b4284cde",
                 "shasum": ""
             },
             "require": {
@@ -303,20 +357,20 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-17T16:07:40+00:00"
+            "time": "2017-03-30 21:48:10"
         },
         {
             "name": "mos/cimage",
-            "version": "v0.7.18",
+            "version": "v0.7.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e"
+                "reference": "f9604518e478a5097f29f991b61ba8ee36e7e5ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
-                "reference": "8001f72a1ac8de2b7c80b711b9f8d16eb97fd22e",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/f9604518e478a5097f29f991b61ba8ee36e7e5ba",
+                "reference": "f9604518e478a5097f29f991b61ba8ee36e7e5ba",
                 "shasum": ""
             },
             "require": {
@@ -324,7 +378,9 @@
                 "php": ">=5.3"
             },
             "suggest": {
-                "ext-exif": "*"
+                "ext-curl": "*",
+                "ext-exif": "*",
+                "ext-imagick": "*"
             },
             "type": "library",
             "autoload": {
@@ -361,7 +417,7 @@
                 "image",
                 "imageprocessing"
             ],
-            "time": "2016-08-09T11:27:46+00:00"
+            "time": "2017-03-30 22:47:55"
         }
     ],
     "packages-dev": [],
