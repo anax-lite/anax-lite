@@ -4,6 +4,7 @@ $linkCar = $this->asset("img/car.png");
 $linkViewTest1 = $this->url("view/test1");
 $linkViewTest2 = $this->url("view/test2");
 $linkGoogle = $this->url("https://google.se");
+$linkMailto = $this->url("mailto:mos@dbwebb.se");
 
 
 
@@ -19,3 +20,5 @@ $linkGoogle = $this->url("https://google.se");
 <p>Here are two links to the test routes: <a href="<?= $linkViewTest1 ?>">view/test1</a> | <a href="<?= $linkViewTest2 ?>">view/test2</a></p>
 
 <p>Here is a link to another site, like <a href="<?= $linkGoogle ?>">Google</a>.
+
+<p><a href="<?= $linkMailto ?>">Mailto url</a>.

@@ -6,7 +6,11 @@ $this->renderView("view/header", [
     "title" => $title,
 ]);
 */
-$this->renderView("view/header", $data);
+try {
+    $this->renderView("view/header", $data);
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
 ?>
 
 <p>This is another test view.</p>
