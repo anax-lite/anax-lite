@@ -44,8 +44,9 @@ $app->router->add("search/{string}", function ($string) use ($app) {
 /**
  * Check arguments that matches a specific type.
  */
-$callback = function ($value) use ($app) {
+$callback = function ($value = null) use ($app) {
     $data = [
+        "method"    => $app->request->getMethod(),
         "route"     => $app->request->getRoute(),
         "matched"   => $app->router->getLastRoute(),
         "value"     => $value,
@@ -58,3 +59,8 @@ $app->router->add("validate/{value:digit}", $callback);
 $app->router->add("validate/{value:hex}", $callback);
 $app->router->add("validate/{value:alpha}", $callback);
 $app->router->add("validate/{value:alphanum}", $callback);
+
+$app->router->get("router/get", $callback);
+$app->router->post("router/post", $callback);
+$app->router->put("router/put", $callback);
+$app->router->delete("router/delete", $callback);
