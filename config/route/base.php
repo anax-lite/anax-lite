@@ -11,6 +11,23 @@ $app->router->add("", function () use ($app) {
                   ->send();
 });
 
+
+
+$app->router->add("admin/**", function () use ($app) {
+    if (user not loggedin) {
+        $app->redirect("about");
+    }
+});
+
+
+$app->router->add("admin/user", function () use ($app) {
+    if (user not loggedin) {
+        $app->redirect("about");
+    }
+});
+
+
+
 $app->router->add("about", function () use ($app) {
     $app->view->add("take1/header", ["title" => "About"]);
     $app->view->add("take1/navbar");

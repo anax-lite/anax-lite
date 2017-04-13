@@ -42,6 +42,12 @@ $app->router->add("database/connect", function () use ($app) {
     $app->view->add("database/layout", $data, "layout");
     $body = $app->view->renderBuffered("layout");
     $app->response->setBody($body)->send();
+/*
+    $app->renderPage([
+        "title" => "Connect | database",
+        "header" => "Connecting to the database",
+    ]);
+*/
 });
 
 

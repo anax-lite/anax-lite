@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bdb7f5a1330d74e8d49c7f9256cf3007",
     "content-hash": "0ad97f6ed7c04060224914371e2fb212",
     "packages": [
         {
@@ -57,7 +56,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-26 21:22:33"
+            "time": "2017-03-26T21:22:33+00:00"
         },
         {
             "name": "anax/database",
@@ -109,7 +108,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-04-07 22:45:43"
+            "time": "2017-04-07T22:45:43+00:00"
         },
         {
             "name": "anax/request",
@@ -158,26 +157,23 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-04-03 22:00:09"
+            "time": "2017-04-03T22:00:09+00:00"
         },
         {
             "name": "anax/response",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/response.git",
-                "reference": "9af4ec6aa42ad31127e78075cec00af165671044"
+                "reference": "b026eea38af2a52874fe9cbf7b58db37d08b34c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/response/zipball/9af4ec6aa42ad31127e78075cec00af165671044",
-                "reference": "9af4ec6aa42ad31127e78075cec00af165671044",
+                "url": "https://api.github.com/repos/canax/response/zipball/b026eea38af2a52874fe9cbf7b58db37d08b34c9",
+                "reference": "b026eea38af2a52874fe9cbf7b58db37d08b34c9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
-            },
-            "require-dev": {
                 "php": ">=5.6"
             },
             "type": "library",
@@ -207,26 +203,23 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-13 15:32:20"
+            "time": "2017-04-12T14:55:30+00:00"
         },
         {
             "name": "anax/router",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/router.git",
-                "reference": "29755b0357407b503866779236fa69c0fe1a87f1"
+                "reference": "ad31bba5bc94cd74e31ab52e69365ffcf4f5c09b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/router/zipball/29755b0357407b503866779236fa69c0fe1a87f1",
-                "reference": "29755b0357407b503866779236fa69c0fe1a87f1",
+                "url": "https://api.github.com/repos/canax/router/zipball/ad31bba5bc94cd74e31ab52e69365ffcf4f5c09b",
+                "reference": "ad31bba5bc94cd74e31ab52e69365ffcf4f5c09b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
-            },
-            "require-dev": {
                 "php": ">=5.6"
             },
             "type": "library",
@@ -256,7 +249,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-26 20:55:23"
+            "time": "2017-04-13T11:20:20+00:00"
         },
         {
             "name": "anax/url",
@@ -306,7 +299,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-30 22:16:53"
+            "time": "2017-03-30T22:16:53+00:00"
         },
         {
             "name": "anax/view",
@@ -356,7 +349,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2017-03-30 21:48:10"
+            "time": "2017-03-30T21:48:10+00:00"
         },
         {
             "name": "mos/cimage",
@@ -416,7 +409,7 @@
                 "image",
                 "imageprocessing"
             ],
-            "time": "2017-03-30 22:47:55"
+            "time": "2017-03-30T22:47:55+00:00"
         }
     ],
     "packages-dev": [],
